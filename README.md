@@ -140,6 +140,90 @@ Contributions, bug reports, and suggestions are welcome.
 
 GitHub: [@sparkz8085](https://github.com/sparkz8085)
 
+
+
+## 🪟 Windows Setup Guide
+
+This section explains how to prepare the project on Windows. **The current background runner is Linux-oriented and requires Windows compatibility updates before program execution will work reliably.**
+
+### 📋 Requirements
+
+- Windows 10 or Windows 11
+- Git for Windows
+- XAMPP for Windows
+- A modern web browser
+- Compilers or interpreters for the programming languages you want to use
+
+### 1. Install XAMPP
+
+Download XAMPP for Windows from the official website:
+
+https://www.apachefriends.org/
+
+Install it using the default location:
+
+```text
+C:\xampp
+```
+
+Open the XAMPP Control Panel and start **Apache**.
+
+### 2. Clone the Repository
+
+Open PowerShell or Git Bash and run:
+
+```powershell
+cd C:\xampp\htdocs
+git clone https://github.com/sparkz8085/practice_programmming_lab.git
+```
+
+The project folder should be:
+
+```text
+C:\xampp\htdocs\practice_programmming_lab
+```
+
+### 3. Open the Dashboard
+
+Open your browser and visit:
+
+```text
+http://localhost/practice_programmming_lab/
+```
+
+Apache should serve the PHP dashboard if the installation is configured correctly.
+
+### 4. Install Language Toolchains
+
+Install the compilers or interpreters for the languages you intend to use. For example:
+
+- PHP — included with XAMPP
+- Python — https://www.python.org/downloads/windows/
+- Java — https://adoptium.net/
+- Node.js — https://nodejs.org/
+- C/C++ — install a suitable Windows compiler toolchain
+
+Verify each installation in PowerShell using its version command, such as:
+
+```powershell
+php --version
+python --version
+java --version
+node --version
+gcc --version
+```
+
+Not every command will work until the corresponding toolchain is installed and configured in `PATH`.
+
+### ⚠️ Windows Compatibility Status
+
+The current runner uses Linux-specific process-launching commands and a Linux PHP executable path. Consequently, the dashboard's program-execution features are **not yet guaranteed to work on Windows**.
+
+Before using the Run feature on Windows, the runner must be adapted to use Windows-compatible process management, executable paths, and command handling.
+
+Do not expose the runner to the public Internet. It executes code on the host machine and requires appropriate isolation before being used with untrusted programs.
+
+
 ---
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub!
