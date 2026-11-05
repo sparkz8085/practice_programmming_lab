@@ -1,0 +1,1 @@
+public class EvenOddSumAverage{public static void main(String[]a){int es=0,os=0,ec=0,oc=0;for(String s:a){int n=Integer.parseInt(s);if(n%2==0){es+=n;ec++;}else{os+=n;oc++;}}System.out.println("Even sum = "+es);System.out.println("Even average = "+(ec==0?0.0:(double)es/ec));System.out.println("Odd sum = "+os);System.out.println("Odd average = "+(oc==0?0.0:(double)os/oc));}}

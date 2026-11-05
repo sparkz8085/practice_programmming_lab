@@ -1,0 +1,1 @@
+import java.util.Scanner; public class CharacterOccurrence{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter string: ");String a=s.nextLine();System.out.print("Enter character: ");char c=s.nextLine().charAt(0);int n=0;for(int i=0;i<a.length();i++)if(a.charAt(i)==c)n++;System.out.println("Occurrence = "+n);s.close();}}

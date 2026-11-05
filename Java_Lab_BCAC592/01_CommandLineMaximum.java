@@ -1,0 +1,1 @@
+public class CommandLineMaximum{public static void main(String[]a){if(a.length==0){System.out.println("Pass numbers as arguments");return;}int m=Integer.MIN_VALUE;for(String s:a)m=Math.max(m,Integer.parseInt(s));System.out.println("Maximum = "+m);}}

@@ -1,0 +1,1 @@
+import java.util.Scanner; public class AddTwoNumbers{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter two numbers: ");int a=s.nextInt(),b=s.nextInt();System.out.println("Sum = "+(a+b));s.close();}}

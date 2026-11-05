@@ -1,0 +1,1 @@
+import java.util.Scanner; public class ShiftOperators{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter number: ");int n=s.nextInt();System.out.println("Multiplied by 4 = "+(n<<2));System.out.println("Divided by 2 = "+(n>>1));s.close();}}

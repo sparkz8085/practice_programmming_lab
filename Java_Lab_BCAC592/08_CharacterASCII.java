@@ -1,0 +1,1 @@
+import java.util.Scanner; public class CharacterASCII{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter character: ");char c=s.next().charAt(0);System.out.println("ASCII/Unicode value = "+(int)c);s.close();}}

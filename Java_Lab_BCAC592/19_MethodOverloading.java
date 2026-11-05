@@ -1,0 +1,1 @@
+class Addition{int addition(int a,int b){return a+b;}int addition(int a,int b,int c){return a+b+c;}double addition(double a,double b){return a+b;}} public class MethodOverloading{public static void main(String[]x){Addition a=new Addition();System.out.println(a.addition(10,20));System.out.println(a.addition(10,20,30));System.out.println(a.addition(10.5,20.5));}}

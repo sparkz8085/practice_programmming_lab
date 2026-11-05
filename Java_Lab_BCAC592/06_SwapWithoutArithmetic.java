@@ -1,0 +1,1 @@
+import java.util.Scanner; public class SwapWithoutArithmetic{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter two integers: ");int a=s.nextInt(),b=s.nextInt();a^=b;b^=a;a^=b;System.out.println("a = "+a+", b = "+b);s.close();}}

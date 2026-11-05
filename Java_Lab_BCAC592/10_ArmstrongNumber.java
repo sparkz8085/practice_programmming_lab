@@ -1,0 +1,1 @@
+import java.util.Scanner; public class ArmstrongNumber{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter non-negative integer: ");int n=s.nextInt(),t=n,d=String.valueOf(n).length(),sum=0;while(t>0){int r=t%10;sum+=(int)Math.pow(r,d);t/=10;}System.out.println(n>=0&&sum==n?"Armstrong number":"Not an Armstrong number");s.close();}}

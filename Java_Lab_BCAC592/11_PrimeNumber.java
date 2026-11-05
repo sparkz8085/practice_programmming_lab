@@ -1,0 +1,1 @@
+import java.util.Scanner; public class PrimeNumber{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter integer: ");int n=s.nextInt();boolean p=n>1;for(int i=2;i<=Math.sqrt(n)&&p;i++)if(n%i==0)p=false;System.out.println(p?"Prime number":"Not a prime number");s.close();}}

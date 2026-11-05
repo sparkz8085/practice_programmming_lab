@@ -1,0 +1,1 @@
+class Student{String name;int roll_no;} public class StudentClass{public static void main(String[]x){Student s=new Student();s.name="John";s.roll_no=2;System.out.println("Name = "+s.name);System.out.println("Roll number = "+s.roll_no);}}

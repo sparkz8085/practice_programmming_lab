@@ -1,0 +1,1 @@
+import java.util.Scanner; public class VowelsConsonants{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter string: ");String a=s.nextLine().toLowerCase();int v=0,c=0;for(char ch:a.toCharArray())if(ch>='a'&&ch<='z'){if("aeiou".indexOf(ch)>=0)v++;else c++;}System.out.println("Vowels = "+v);System.out.println("Consonants = "+c);s.close();}}

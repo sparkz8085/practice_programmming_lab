@@ -1,0 +1,1 @@
+import java.util.Scanner; public class StringPalindrome{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter string: ");String a=s.nextLine().replaceAll("\\s+","").toLowerCase();String b=new StringBuilder(a).reverse().toString();System.out.println(a.equals(b)?"Palindrome":"Not a palindrome");s.close();}}

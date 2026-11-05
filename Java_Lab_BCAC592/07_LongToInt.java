@@ -1,0 +1,1 @@
+import java.util.Scanner; public class LongToInt{public static void main(String[]x){Scanner s=new Scanner(System.in);System.out.print("Enter long value: ");long n=s.nextLong();int v=(int)n;System.out.println("Integer value = "+v);s.close();}}
