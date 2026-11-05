@@ -1,0 +1,1 @@
+<!doctype html><html><body><?php echo "Welcome to PHP"; ?><br><b><?php echo "Welcome to PHP"; ?></b></body></html>
